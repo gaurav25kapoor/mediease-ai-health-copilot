@@ -114,12 +114,25 @@ mediease-ai-health-copilot
 │
 ├── frontend
 │ ├── app
+│ │ ├── dashboard
+│ │ ├── prediction
+│ │ ├── reports
+│ │ └── triage
+│ │
 │ ├── components
+│ ├── lib
 │ ├── public
+│ ├── types
+│ ├── utils
 │ └── package.json
 │
 ├── backend
 │ ├── routers
+│ │ ├── dashboard.py
+│ │ ├── prediction.py
+│ │ ├── reports.py
+│ │ └── triage.py
+│ │
 │ ├── models
 │ ├── services
 │ ├── db
